@@ -151,6 +151,8 @@ print(data.head())
 We would like to check the salaries column for the first 15 employees
 
 ```
+import pandas as pd
+
 data = pd.read_csv('employeeInfo.csv',
         header=0,
         nrows = 15,
